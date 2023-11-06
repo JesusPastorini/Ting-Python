@@ -1,4 +1,5 @@
 from ting_file_management.file_management import txt_importer
+import sys
 
 
 def process(path_file, instance):
@@ -34,4 +35,8 @@ def remove(instance):
 
 
 def file_metadata(instance, position):
-    """Aqui irá sua implementação"""
+    if 0 <= position < len(instance):
+        item = instance.search(position)
+        print(item)
+    else:
+        print("Posição inválida", file=sys.stderr)
