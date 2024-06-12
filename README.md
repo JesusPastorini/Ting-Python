@@ -1,6 +1,6 @@
 # 🚀 Projeto: TING (Trybe is not Google)
 
-## ℹ️ Sobre o Projeto
+## Sobre o Projeto
 
 O projeto TING (Trybe is not Google) tem como objetivo desenvolver um programa capaz de simular um algoritmo de indexação de documentos, semelhante ao utilizado pelo Google. O programa será capaz de identificar ocorrências de termos em arquivos TXT, utilizando dois módulos principais: gerenciamento de arquivos e busca.
 
@@ -32,7 +32,7 @@ Implementação de testes para a classe `PriorityQueue`, capaz de armazenar arqu
 
 1. Faça um fork deste repositório para sua conta do GitHub.
 2. Clone o fork para sua máquina local usando o comando:
-git clone https://github.com/seu_usuario/nome_do_projeto.git
+git clone git@github.com:JesusPastorini/Ting-Python.git
 3. Navegue até o diretório do projeto:
 cd nome_do_projeto
 4. Crie um ambiente virtual e instale as dependências:
